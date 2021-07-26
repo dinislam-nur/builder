@@ -1,9 +1,5 @@
 package ru.iteco.builder.api;
 
-import java.util.Collection;
-
-public interface FromBuilder {
+public interface FromBuilder extends To {
     FromBuilder from(String from);
-    ToBuilder to(String to);
-    ToBuilder toAll(Collection<String> toAll);
 }

@@ -1,9 +1,6 @@
 package ru.iteco.builder;
 
-import ru.iteco.builder.api.CopyBuilder;
-import ru.iteco.builder.api.FinallyBuilder;
-import ru.iteco.builder.api.FromBuilder;
-import ru.iteco.builder.api.ToBuilder;
+import ru.iteco.builder.api.*;
 
 import java.util.Collection;
 import java.util.HashSet;
